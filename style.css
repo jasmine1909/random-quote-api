@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 1.3rem;
+  background-color: rgb(16, 131, 22);
+}
+#quote-tags {
+  text-transform: capitalize;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.quote-wrapper {
+  background-color: white;
+  border-radius: 30px;
+  padding: 2rem 3rem;
+  box-shadow: 2px 8px 10px 1px rgba(0, 0, 0, 0.1);
+  margin: 5rem;
+}
+.quote-wrapper blockquote {
+  padding: 2rem;
+}
+.quote-wrapper cite {
+  display: block;
+  padding-bottom: 1rem;
+}
+#gen-btn {
+  padding: 0.4rem 1.2rem;
+  border-radius: 30px;
+  background-color: rgb(23, 131, 9);
+  color: white;
+  border: none;
+  outline: 0;
+  font-size: 1.3rem;
+}
